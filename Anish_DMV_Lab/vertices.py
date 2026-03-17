@@ -1,7 +1,7 @@
 import networkx as nx
 import matplotlib.pyplot as plt
 
-n=int(input("Enter number of edges:\n"))
+n=6
 if n > 3:
     G = nx.complete_graph(n)  
     

@@ -5,7 +5,7 @@ y=list(map(int,data.split()))
 x=range(0,len(y))
 plt.scatter(x, y, color='red', marker='o')
 
-plt.title("Scatter Plot Dynamic")
+plt.title("Scatter Plot")
 plt.xlabel("X values")
 plt.ylabel("Y values")
 

@@ -11,11 +11,11 @@ axs[0].set_title("Line Graph")
 axs[0].set_xlabel("X values")
 axs[0].set_ylabel("Y values")
 
-axs[1].bar(x, y_bar,edgecolor="black", color='orange')
+axs[1].bar(x, y_bar, color='orange')
 axs[1].set_title("Bar Graph")
 axs[1].set_xlabel("X values")
 axs[1].set_ylabel("Y values")
 
-plt.tight_layout()
+fig.tight_layout()
 
 plt.show()
